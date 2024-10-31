@@ -1,1 +1,1 @@
-The source code is being organized and will be released before October 31st.
+The source code is being organized and will be released soon!
