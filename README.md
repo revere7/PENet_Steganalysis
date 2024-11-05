@@ -12,9 +12,7 @@ python (3.6.9)
 
 "srm_filter_kernel.py" contains the 30 SRM filters. 
 
-Example: 
 
-If you want to detect CMD-C-HILL steganography method at 0.4 bpc (on GPU #1), you can enter following command:
+For instance: run "PENet_Arbitrary.py" 
 
-"python3 UCNet_Spatial.py -alg CMDC-HILL -rate 0.4 -g 1"
-
+Command: python3 PENet_Arbitrary.py -alg CMDC-HILL -rate 0.4 -g 1,2
