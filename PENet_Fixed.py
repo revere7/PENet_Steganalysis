@@ -272,7 +272,7 @@ class Net(nn.Module):
     output = MPNCOV.CovpoolLayer(output)
     output = MPNCOV.SqrtmLayer(output, 5)
     output = MPNCOV.TriuvecLayer(output)
-    output = self.gap(output)
+  
     output = output.view(output.size(0), -1)
 
     output = self.fc1(output)
